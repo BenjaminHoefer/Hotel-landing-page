@@ -1,0 +1,23 @@
+/* Main navigation of the landing page */
+
+.l-main-nav {}
+
+.c-main-nav__list {
+    display: flex;
+    justify-content: center;
+}
+
+.c-main-nav__item {
+    list-style: none;
+    margin: 0 2vw;
+}
+
+.c-main-nav__link {
+    text-decoration: none;
+    color: var(--gold, gold);
+    font-size: 1.25rem;
+}
+
+.c-main-nav__search-icon {
+    margin-top: 3px;
+}

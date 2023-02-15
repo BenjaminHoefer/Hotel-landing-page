@@ -1,0 +1,24 @@
+/* Import font */
+
+@font-face {
+    font-family: "ubuntu-reg";
+    src: url(../../fonts/ubuntu/Ubuntu-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ubuntu-bold";
+    src: url(../../fonts/ubuntu/Ubuntu-Bold.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* General styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu-reg", sans-serif;
+}
