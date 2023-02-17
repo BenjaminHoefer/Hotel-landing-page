@@ -1,0 +1,80 @@
+/* Media queries for scaling */
+
+@media only screen and (max-width: 576px) {
+    .c-main-nav__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c-main-nav__item {
+        margin-bottom: 1vh;
+    }
+
+    .l-intro {
+        height: 250px;
+    }
+
+    .c-intro__title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .l-facilities__list {
+        flex-wrap: wrap;
+    }
+
+    .c-facilities__icon {
+        width: 10vw;
+    }
+
+    .c-rooms__title {
+        margin-bottom: 3vh;
+    }
+
+    .l-rooms__row {
+        flex-wrap: wrap;
+        max-height: none;
+        margin-top: 0;
+    }
+
+    .c-rooms__container {
+        width: 95vw;
+        margin-bottom: 1vh;
+    }
+
+    .c-rooms__subtitle {
+        font-size: 1.25rem;
+    }
+
+    .c-booking__title {
+        text-align: center;
+    }
+
+    .l-footer  {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c-footer__contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c-footer__logo {
+        width: 20vw;
+    }
+
+    .c-footer__item {
+        margin-bottom: 1vh;
+    }
+
+    .l-form {
+        margin-top: 3vh;
+        width: 50%;
+    }
+
+    .c-form__input {
+        width: 100%;
+    }
+}

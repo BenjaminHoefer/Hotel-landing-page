@@ -1,13 +1,23 @@
-.l-facilities {}
+/* Flexbox of the facilities of the hotel */
 
-.c-facilities__title {}
+.l-facilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.c-facilities__kitchen {}
+.c-facilities__title {
+    color: var(--gold, gold);
+    margin-top: 3vh;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
 
-.c-facilities__pool {}
+.l-facilities__list {
+    display: flex;
+}
 
-.c-facilities__wifi {}
-
-.c-facilities__gym {}
-
-.c-facilities__taxi {}
+.c-facilities__item {
+    list-style: none;
+    margin: 3vh 4vw;
+}

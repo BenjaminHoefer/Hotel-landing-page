@@ -18,7 +18,7 @@
 </head>
 <body>
     <header class="l-header">
-        <img class="c-header__logo" src="./img/logo_header.png" alt="The logo of Bon Hotels Nigeria">
+        <img class="c-header__logo" src="./assets/img/logo_header.png" alt="The logo of Bon Hotels Nigeria">
     </header>
     <nav class="l-main-nav">
         <ul class="c-main-nav__list">
@@ -26,7 +26,7 @@
             <li class="c-main-nav__item"><a class="c-main-nav__link" href="">Rooms &amp; Rates </a></li>
             <li class="c-main-nav__item"><a class="c-main-nav__link" href="">Facilities</a></li>
             <li class="c-main-nav__item"><a class="c-main-nav__link" href="">Contact Us</a></li>
-            <li class="c-main-nav__item"><img class="c-main-nav__search-icon" src="./img/icon_search.png"></li>
+            <li class="c-main-nav__item"><a class="n-nav__search-icon" href=""><img src="./assets/img/icon_search.png" alt="An icon representing a magnifying glass"></a></li>
         </ul>
     </nav>
     <main>
@@ -37,29 +37,35 @@
         </section>
         <section class="l-facilities">
             <h2 class="c-facilities__title">Facilities</h2>
-            <img class="c-facilities__kitchen" src="./img/icon_kitchen.png" alt="A small logo representing a kitchen">
-            <img class="c-facilities__pool" src="./img/icon_pool.png" alt="A small logo representing a pool">
-            <img class="c-facilities__wifi" src="./img/icon_wifi.png" alt="A small logo representing a wifi connection">
-            <img class="c-facilities__gym" src="./img/icon_gym.png" alt="A small logo representing a gym">
-            <img class="c-facilities__taxi" src="./img/icon_taxi.png" alt="A small logo representing a taxi">
+            <ul class="l-facilities__list">
+                <li class="c-facilities__item"><img class="c-facilities__icon" src="./assets/img/icon_kitchen.png" alt="A small logo representing a kitchen"></li>
+                <li class="c-facilities__item"><img class="c-facilities__icon" src="./assets/img/icon_pool.png" alt="A small logo representing a pool"></li>
+                <li class="c-facilities__item"><img class="c-facilities__icon" src="./assets/img/icon_wifi.png" alt="A small logo representing a wifi connection"></li>
+                <li class="c-facilities__item"><img class="c-facilities__icon" src="./assets/img/icon_gym.png" alt="A small logo representing a gym"></li>
+                <li class="c-facilities__item"><img class="c-facilities__icon" src="./assets/img/icon_taxi.png" alt="A small logo representing a taxi"></li>
+            </ul>
         </section>
         <section class="l-rooms">
             <h2 class="c-rooms__title">Rooms &amp; Rates</h2>
-            <div class="c-rooms__container">
-                <h3 class="c-rooms__subtitle">Standard Twin Room</h3>
-                <button class="c-rooms__button">Check Rates</button>
+            <div class="l-rooms__row">
+                <div class="c-rooms__container c-rooms__container--twin">
+                    <h3 class="c-rooms__subtitle">Standard Twin Room</h3>
+                    <button class="c-rooms__button">Check Rates</button>
+                </div>
+                <div class="c-rooms__container c-rooms__container--standard">
+                    <h3 class="c-rooms__subtitle">Standard Room</h3>
+                    <button class="c-rooms__button">Check Rates</button>
+                </div>
             </div>
-            <div class="c-rooms__container">
-                <h3 class="c-rooms__subtitle">Standard Room</h3>
-                <button class="c-rooms__button">Check Rates</button>
-            </div>
-            <div class="c-rooms__container">
-                <h3 class="c-rooms__subtitle">Standard View Room</h3>
-                <button class="c-rooms__button">Check Rates</button>
-            </div>
-            <div class="c-rooms__container">
-                <h3 class="c-rooms__subtitle">Deluxe Room</h3>
-                <button class="c-rooms__button">Check Rates</button>
+            <div class="l-rooms__row">
+                <div class="c-rooms__container c-rooms__container--view">
+                    <h3 class="c-rooms__subtitle">Standard View Room</h3>
+                    <button class="c-rooms__button">Check Rates</button>
+                </div>
+                <div class="c-rooms__container c-rooms__container--deluxe">
+                    <h3 class="c-rooms__subtitle">Deluxe Room</h3>
+                    <button class="c-rooms__button">Check Rates</button>
+                </div>
             </div>
         </section>
         <section class="l-booking">
@@ -69,7 +75,7 @@
     </main>
     <footer class="l-footer">
         <div class="c-footer__contact">
-            <img class="c-footer__logo" src="./img/logo_footer.png" alt="A logo of Bon Hotels">
+            <img class="c-footer__logo" src="./assets/img/logo_footer.png" alt="A logo of Bon Hotels">
             <p class="c-footer__name">Bon Hotels Head Office</p>
             <p class="c-footer__phone">+27 434 344 432</p>
             <p class="c-footer__email">info@bonhotels.com</p>
@@ -83,9 +89,9 @@
                 <li class="c-footer__item"><a class="c-footer__link" href="#">Careers</a></li>
             </ul>
         </nav>
-        <form action="#">
-            <label >Subscribe for Offers<input type="text" name="email"></label>
-            <button>Subscribe</button>
+        <form action="#" class="l-form">
+            <label class="c-form__label">Subscribe for Offers<input class="c-form__input" type="text" name="email" placeholder="Email Address"></label>
+            <button class="c-form__button">Subscribe</button>
         </form>
     </footer>
 </body>

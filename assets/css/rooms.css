@@ -1,9 +1,66 @@
-.l-rooms {}
+/* Gallery of the rooms */
 
-.c-rooms__title {}
+.l-rooms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.c-rooms__container {}
+.c-rooms__title {
+    color: var(--gold, gold);
+    margin-top: 3vh;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
 
-.c-rooms__subtitle {}
+.l-rooms__row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+    width: 100%;
+    max-width: 1300px;
+    max-height: 500px;
+}
 
-.c-rooms__button {}
+.c-rooms__container {
+    width: 45%;
+    padding: calc((500 / 630 * 45%) / 2) 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c-rooms__container--twin {
+    background-image: url(../img/standard_twin_room.png);
+}
+
+.c-rooms__container--standard {
+    background-image: url(../img/standard_room.png);
+}
+
+.c-rooms__container--view {
+    background-image: url(../img/standard_view_room.png);
+}
+
+.c-rooms__container--deluxe {
+    background-image: url(../img/deluxe_room.png);
+}
+
+.c-rooms__subtitle {
+    font-size: 2rem;
+    color: var(--white, white);
+    margin-top: 100px;
+}
+
+.c-rooms__button {
+    background-color: var(--gold, gold);
+    color: var(--white, white);
+    border: none;
+    border-radius: 5px;
+    padding: 1.5vh 3vw;
+    margin-top: 3vh;
+}

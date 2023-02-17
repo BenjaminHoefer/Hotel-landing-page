@@ -1,3 +1,5 @@
+/* Introduction of the hotel */
+
 .l-intro {
     display: flex;
     flex-direction: column;
@@ -6,25 +8,26 @@
     background-size: cover;
     padding: calc((790 / 1441 * 100%) / 2) 0;
     margin-top: 3vh;
+    max-height: 790px;
 }
 
 .c-intro__title {
     color: var(--white, white);
     font-size: 3rem;
     letter-spacing: 1vw;
-    margin-bottom: 1.5vh;
+    margin-bottom: 3vh;
 }
 
 .c-intro__subtitle {
     color: var(--white, white);
     font-size: 1rem;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
 }
 
 .c-intro__button {
     background-color: var(--gold, gold);
     color: var(--white, white);
-    padding: 1vh 5vw;
+    padding: 1.5vh 5vw;
     border: none;
     border-radius: 5px;
 }

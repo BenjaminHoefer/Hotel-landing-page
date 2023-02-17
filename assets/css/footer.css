@@ -1,19 +1,81 @@
-.l-footer {}
+/* Footer navigation, address and contact form */
 
-.c-footer__contact {}
+.l-footer {
+    background-color: var(--darkgray, darkgray);
+    display: flex;
+    justify-content: space-between;
+}
 
-.c-footer__logo {}
+.c-footer__contact {
+    color: var(--white, white);
+    margin: 3vh 3vw;
+}
 
-.c-footer__name {}
+.c-footer__logo {
+    width: 8vw;
+    margin-bottom: 3vh;
+}
 
-.c-footer__phone {}
+.c-footer__name {
+    margin-bottom: 0.5vh;
+}
 
-.c-footer__email {}
+.c-footer__phone {
+    margin-bottom: 0.5vh;
+}
 
-.l-footer__nav {}
+.c-footer__email {
+    margin-bottom: 3vh;
+}
 
-.l-footer__list {}
+.l-footer__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-.c-footer__item {}
+.l-footer__list {
+    list-style: none;
+}
 
-.c-footer__link {}
+.c-footer__item {
+    margin-bottom: 2vh;
+}
+
+.c-footer__link {
+    color: var(--white, white);
+    text-decoration: none;
+
+}
+
+.c-footer__link:hover {
+    text-decoration: underline;
+
+}
+
+.l-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 4vw;
+    margin-bottom: 4vh;
+}
+
+.c-form__label {
+    color: var(--white, white);
+    margin-bottom: 1vh;
+}
+
+.c-form__input {
+    display: block;
+    margin-top: 1vh;
+    padding: 0.8vh 3vw;
+}
+
+.c-form__button {
+    background-color: var(--gold, gold);
+    color: var(--white, white);
+    padding: 0.8vh 0;
+    border: none;
+    border-radius: 5px;
+}

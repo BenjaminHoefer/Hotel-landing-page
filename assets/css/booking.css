@@ -1,5 +1,22 @@
-.l-booking {}
+.l-booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.c-booking__title {}
+.c-booking__title {
+    color: var(--gold, gold);
+    margin-top: 3vh;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
 
-.c-booking__button {}
+.c-booking__button {
+    background-color: var(--gold, gold);
+    color: var(--white, white);
+    border: none;
+    border-radius: 5px;
+    padding: 1.5vh 10vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
